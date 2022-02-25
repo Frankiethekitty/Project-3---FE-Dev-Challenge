@@ -1,0 +1,33 @@
+.topImages{
+    width: 1160px;
+    height: 493px;
+    margin-left: 220px;
+    margin-right: 220px;
+    background-color: aqua;
+    display: flex;
+}
+
+.largeAccord {
+    width: 760px;
+    height: 452px;
+    background-color: rgb(196, 193, 13);
+    margin: 0px;
+    padding: 0px;
+}
+
+.medAccord {
+    width: 399px;
+    height: 470px;
+    background-color: rgb(197, 21, 124);
+    margin: 0px;
+    padding: 0px;
+
+}
+.medAccord img {
+    width: 180px;
+    height: 101px;
+    border-radius: 4px 4px 4px 4px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    padding: 0px;
+}

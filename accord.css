@@ -1,47 +1,96 @@
 
 .breadcrumbAccord {
     display: inline-block;
+    
 }
 
+
+/* Container */
+.accordCardImages{
+    width: 100%;
+    height: 493px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+/* Child 1 */
+.topImages{
+    width: 1160px;
+    height: 493px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+/* Child 1.1 */
 .largeAccord {
+    width: 768px;
+    height: 452px;
+    background-color: rgb(255, 255, 255);
     display: inline-block;
-    padding-top: 0%;
 }
-
+/* Correct Size */
 .largeAccord img {
     width: 768px;
     height: 452px;
     border-radius: 4px 4px 4px 4px;
+    margin: 0px;
+    padding: 0px;
 }
-
+/* Child 1.2 */
 .medAccord {
-    display: inline-block;
-    padding-top: 0%;
+    width: 391px;
+    height: 452px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    float: right;
 }
-
+/* Correct Size */
 .medAccord img {
     width: 180px;
     height: 101px;
     border-radius: 4px 4px 4px 4px;
-
+    margin-left: 13px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-top: 0px;
+    border: 0px;
+    padding: 0px;
 }
-
-
+/* Child 2 */
+.smallAccord {
+    width: 768px;
+    height: 36px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    
+}
+/* Correct Size */
 .smallAccord img {
     width: 66px;
     height: 36px;
     margin: 0px;
-    border: 0px;
+    border-top: 0px;
     padding: 0px;
     float: left;
 }
 
-.firstSmall {
+#firstSmall {
     border-radius: 4px 0px 0px 4px;
 }
 
-.lastSmall {
+#lastSmall {
     border-radius: 0px 4px 4px 0px;
+}
+
+#rightArrow {
+    width: 40px;
+}
+
+.basicInfoSection {
+    width: 66px;
+    height: 36px;
+    margin-top: 0px;
+    margin-left: 220px;
 }
 
 /* AD */
