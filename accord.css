@@ -1,7 +1,41 @@
+/* Container */
+.accordBreadcrumbs {
+    width: 1160px;
+    height: 56px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
 
 .breadcrumbAccord {
     display: inline-block;
-    
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.breadcrumbsAccord ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Container */
+.carTitle {
+    width: 1160px;
+    height: 49px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+.carTitle h1 {
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 8px;
+
 }
 
 
@@ -85,12 +119,171 @@
 #rightArrow {
     width: 40px;
 }
-
 .basicInfoSection {
     width: 66px;
     height: 36px;
     margin-top: 0px;
     margin-left: 220px;
+}
+/* Parent */
+.accordInfo {
+    width: 1160px;
+    height: 1355px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+/* Child 1 */
+.basicInfo {
+    width: 768px;
+    height: 267px;
+}
+/* Child 2 */
+.priceInfo {
+    width: 375px;
+    height: 506px;
+    background-color: #F2F2F2;
+    border-radius: 4px 4px 4px 4px;
+    float: right;
+}
+/* Child 3 */
+.featuresInfo {
+    width: 768px;
+    height: 560px;
+}
+.featuresBar {
+    width: 768px;
+    height: 45px;
+    background-color: #F2F2F2;
+    border-radius: 4px 4px 4px 4px;
+    display: flex;
+    align-items: center;
+}
+.featuresBar p {
+    margin: 0px;
+    margin-left: 20px;
+}
+.featuresInfo ul li {
+    font-size: 14px;
+    font-family: 'Roboto';
+    line-height: 18px;
+}
+.mechanical {
+    width: 768px;
+    height: 49px;
+}
+#mechanical {
+    font-size: 14px;
+    font-family: 'Roboto';
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.mechanicalOne {
+    width: 369px;
+    height: 109px;
+}
+.mechanicalTwo {
+    width: 398px;
+    height: 109px;
+    float: right;
+}
+.exterior {
+    width: 768px;
+    height: 49px;
+}
+#exterior {
+    font-size: 14px;
+    font-family: 'Roboto';
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.exteriorOne {
+    width: 369px;
+    height: 199px;
+}
+.exteriorTwo {
+    width: 398px;
+    height: 199px;
+    float: right;
+}
+/* Child 3 */
+.specsInfo {
+    width: 768px;
+    height: 528px;
+}
+.specsBar {
+    width: 768px;
+    height: 45px;
+    background-color: #F2F2F2;
+    border-radius: 4px 4px 4px 4px;
+    display: flex;
+    align-items: center;
+}
+.specsBar p {
+    margin: 0px;
+    margin-left: 20px;
+}
+.specsInfo ul li {
+    font-size: 14px;
+    font-family: 'Roboto';
+    line-height: 18px;
+}
+.vehicle {
+    width: 768px;
+    height: 49px;
+}
+#vehicle {
+    font-size: 14px;
+    font-family: 'Roboto';
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.vehicleOne {
+    width: 369px;
+}
+.mileage {
+    width: 768px;
+    height: 49px;
+}
+#mileage {
+    font-size: 14px;
+    font-family: 'Roboto';
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.mileageOne {
+    width: 369px;
+}
+.weightInfo {
+    width: 768px;
+    height: 49px;
+}
+#weightInfo {
+    font-size: 14px;
+    font-family: 'Roboto';
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.weightInfoOne {
+    width: 369px;
+}
+.suspension {
+    width: 768px;
+    height: 49px;
+}
+#suspension {
+    font-size: 14px;
+    font-family: 'Roboto';
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.suspensionOne {
+    width: 369px;
 }
 
 /* AD */
