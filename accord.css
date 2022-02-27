@@ -96,7 +96,6 @@
     height: 36px;
     background-color: rgb(255, 255, 255);
     margin-top: 5px;
-    
 }
 /* Correct Size */
 .smallAccord img {
@@ -107,7 +106,6 @@
     padding: 0px;
     float: left;
 }
-
 #firstSmall {
     border-radius: 4px 0px 0px 4px;
 }
@@ -137,6 +135,46 @@
     width: 768px;
     height: 267px;
 }
+
+.basicInfo ul li {
+    font-size: 14px;
+    font-family: 'Roboto', 'Sans Serif';
+    line-height: 18px;
+}
+
+.iconInfo {
+    width: 350px;
+    height: 267px;
+    background-color: aqua;
+    
+}
+
+.iconInfo td {
+    font-size: 14px;
+    font-family: 'Roboto', 'Sans Serif';
+    line-height: 18px;
+}
+
+.fa-engine {
+    font-size: 18px;
+    color: black;
+}
+
+.warrantyGroup {
+    width: 350;
+    height: 267;
+    float: right;
+}
+
+#warranty {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', 'Sans Serif';
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
 /* Child 2 */
 .priceInfo {
     width: 375px;
@@ -161,10 +199,12 @@
 .featuresBar p {
     margin: 0px;
     margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .featuresInfo ul li {
     font-size: 14px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'Sans Serif';
     line-height: 18px;
 }
 .mechanical {
@@ -173,7 +213,8 @@
 }
 #mechanical {
     font-size: 14px;
-    font-family: 'Roboto';
+    font-weight: bold;
+    font-family: 'Roboto', 'Sans Serif';
     position: relative;
     left: 10px;
     top: 25px;
@@ -193,7 +234,8 @@
 }
 #exterior {
     font-size: 14px;
-    font-family: 'Roboto';
+    font-weight: bold;
+    font-family: 'Roboto', 'Sans Serif';
     position: relative;
     left: 10px;
     top: 25px;
@@ -207,6 +249,12 @@
     height: 199px;
     float: right;
 }
+
+.featuresButton {
+    margin-top: 21px;
+    margin-left: 10px;
+}
+
 /* Child 3 */
 .specsInfo {
     width: 768px;
@@ -223,10 +271,12 @@
 .specsBar p {
     margin: 0px;
     margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .specsInfo ul li {
     font-size: 14px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'Sans Serif';
     line-height: 18px;
 }
 .vehicle {
@@ -235,7 +285,8 @@
 }
 #vehicle {
     font-size: 14px;
-    font-family: 'Roboto';
+    font-weight: bold;
+    font-family: 'Roboto', 'Sans Serif';
     position: relative;
     left: 10px;
     top: 25px;
@@ -249,7 +300,8 @@
 }
 #mileage {
     font-size: 14px;
-    font-family: 'Roboto';
+    font-weight: bold;
+    font-family: 'Roboto', 'Sans Serif';
     position: relative;
     left: 10px;
     top: 25px;
@@ -263,7 +315,8 @@
 }
 #weightInfo {
     font-size: 14px;
-    font-family: 'Roboto';
+    font-weight: bold;
+    font-family: 'Roboto', 'Sans Serif';
     position: relative;
     left: 10px;
     top: 25px;
@@ -277,7 +330,8 @@
 }
 #suspension {
     font-size: 14px;
-    font-family: 'Roboto';
+    font-weight: bold;
+    font-family: 'Roboto', 'Sans Serif';
     position: relative;
     left: 10px;
     top: 25px;
@@ -285,6 +339,11 @@
 .suspensionOne {
     width: 369px;
 }
+
+.specsButton {
+    margin-left: 10px;
+}
+
 
 /* AD */
 .ad {
