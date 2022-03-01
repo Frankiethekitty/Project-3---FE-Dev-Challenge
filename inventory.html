@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>New Cars Inventory</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/inventory.css" />
+  </head>
+  <body>
+    <!--AD section-->
+    <section>
+      <div class="container ad">
+        <div class="row">
+          <div class="col-md-12 col-md-12 col-sm-12">
+            <div class="adIs">YEARS SALE, GET THE BEST PRICES!</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- AD sectin end-->
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mainNav">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/honda-logo.png" /><img
+            src="img/classichondaLogo.png"
+            style="margin-left: 25px; width: 99px"
+        /></a>
+        <div class="collapse navbar-collapse" id="navCenter">
+          <!--id="navbarTogglerDemo03"-->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">New Cars</a>
+              <!-- "nav-link active" -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Used Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service & Parts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Finance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Test Drive</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button
+              class="btn btn-outline-light"
+              type="submit"
+              style="margin-right: 25px"
+            >
+              Schedule a Service
+            </button>
+          </form>
+          <i class="fa-regular fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </nav>
+    <!--Navigation end-->
+
+    <!--Breadcrumbs-->
+    <section class="accordBreadcrumbs">
+      <nav class="breadcrumbsAccord">
+        <ul>
+          <i class="fa-regular fa-house"></i>
+          <li class="breadcrumbAccord">/</li>
+          <li class="breadcrumbAccord">New Cars</li>
+        </ul>
+      </nav>
+    </section>
+    <!--End Breadcrumbs-->
+
+
+    <!--Page Header-->
+    <div class="container">
+      <h3 class="sectionHeading">New Cars Inventory</h3>
+    </div>
+    <!--End Page Header-->
+
+
+    <!--Page Filter-->
+    <section>
+      <div class="container arrangeContainer">
+      <div class="row col-lg-7 col-md-12 col-sm-12">
+        <div class="col-2 searchedFor">Searched For:</div>
+        <div class="col-1 arrangeBox">New<i class="fa-solid fa-circle-xmark"></i>
+        </div>
+        <div class="col-1 arrangeBox">2022<i class="fa-solid fa-circle-xmark"></i>
+        </div>
+        <div class="col-1 arrangeBox">Honda<i class="fa-solid fa-circle-xmark"></i>
+        </div>
+        <div class="col-1 arrangeBox">Accord<i class="fa-solid fa-circle-xmark"></i>
+        </div>
+        <div class="col-1 arrangeBox">4dr<i class="fa-solid fa-circle-xmark"></i>
+        </div>
+        
+      </div>
+    </div>
+    </section>
+     <!--End Page Filter-->
+
+
+    <!--Arrange By-->
+    <div class="container dropdown arrangeBy">
+      <div class="row">
+        <div class="col-9 filterBox">
+      <button class="btn btn-outline dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Low to High
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">High to Low</a>
+        <a class="dropdown-item" href="#">Recommended</a>
+        <a class="dropdown-item" href="#">Ratings</a>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- End Arrange By-->
+
+
+    <!--Product Card 1-->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-12 col-sm-12">
+          <div class="container productCard">
+            <div class="row">
+              <div class="col-12">
+                <div class="card">
+                  <img class="card-img" src="img/accord1.png" alt="...">
+                  <div class="card-img-overlay text-white d-flex justify-content-left align-items-end">
+                    <p class="carTitle">2022 Honda Accord Sedan LX</p>
+                  </div>
+              </div>
+                <div class="row">
+                  <div class="col-3 otherImages">
+                    <img
+                  src="img/Image 7.png"
+                  class="img-thumbnail"
+                  alt="carImage"
+                />
+                  </div>
+                  <div class="col-3 otherImages">
+                    <img
+                  src="img/Image 13.png"
+                  class="img-thumbnail"
+                  alt="carImage"
+                />
+                  </div>
+                  <div class="col-3 otherImages">
+                    <img
+                  src="img/Image 14.png"
+                  class="img-thumbnail"
+                  alt="carImage"
+                />
+                  </div>
+                  <div class="col-3 otherImages">
+                    <img
+                  src="img/360.png"
+                  class="img-thumbnail"
+                  alt="carImage"
+                />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-sm-3 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specTitle">Body Style:</li>
+                      <li class="specTitle">Model Code:</li>
+                      <li class="specTitle">Engine:</li>
+                      <li class="specTitle">Drive Type:</li>
+                      <li class="specTitle">Transmission</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-2 col-sm-3 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specAnswer">4DR Car</li>
+                      <li class="specAnswer">CV1F1NEW</li>
+                      <li class="specAnswer">Intercooled Turbo</li>
+                      <li class="specAnswer">FWD</li>
+                      <li class="specAnswer">Variable</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-2 col-sm-3 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specTitle">Ext. Color:</li>
+                      <li class="specTitle">Int Color:</li>
+                      <li class="specTitle">MPG:</li>
+                      <li class="specTitle">VIN #:</li>
+                      <li class="specTitle">Stock #:</li>
+                      <li class="specTitle">Status:</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-sm-3 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specAnswer">PLATINUM WHITE</li>
+                      <li class="specAnswer">Ivory</li>
+                      <li class="specAnswer">30 City / 38 Hwy</li>
+                      <li class="specAnswer">1HGCV1F13NA017172</li>
+                      <li class="specAnswer">NA017172</li>
+                      <li class="specAnswer stockStatus text-success">In Stock</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-sm-12 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specFinal priceTag">Vehicle Price</li>
+                      <li class="specFinal carPrice">$27,530</li>
+                      <li class="specFinal buttonBuy">
+                        <button type="submit" class="btn btn-primary mb-3 col-sm-12">
+                          Test Drive
+                        </button>
+                      </li>
+                      <li class="specFinal buttonBuy">
+                        <button type="submit" class="btn btn-outline col-sm-12">
+                          More Info
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <!--End Product Card 1-->
+
+
+          <hr class="carBreak" size="4" width="100%" color="red">
+          <br>
+
+
+          <!--Product Card 2-->
+          <div class="container productCard">
+            <div class="row">
+              <div class="col-12">
+                <div class="card">
+                  <img class="card-img" src="img/grey4.png" alt="...">
+                  <div class="card-img-overlay text-white d-flex justify-content-left align-items-end">
+                    <p class="carTitle">2022 Honda Accord Sedan Sport</p>
+                  </div>
+              </div>
+                <div class="row">
+                  <div class="col-3 otherImages">
+                    <img
+                  src="img/grey1.png"
+                  class="img-thumbnail"
+                  alt="carImage"
+                />
+                  </div>
+                  <div class="col-3 otherImages">
+                    <img
+                  src="img/grey2.png"
+                  class="img-thumbnail"
+                  alt="carImage"
+                />
+                  </div>
+                  <div class="col-3 otherImages">
+                    <img
+                  src="img/grey3.png"
+                  class="img-thumbnail"
+                  alt="carImage"
+                />
+                  </div>
+                  <div class="col-3 otherImages">
+                    <img
+                  src="img/360.png"
+                  class="img-thumbnail"
+                  alt="carImage"
+                />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-sm-3 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specTitle">Body Style:</li>
+                      <li class="specTitle">Model Code:</li>
+                      <li class="specTitle">Engine:</li>
+                      <li class="specTitle">Drive Type:</li>
+                      <li class="specTitle">Transmission</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-2 col-sm-3 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specAnswer">4DR Car</li>
+                      <li class="specAnswer">CV1F4NENW</li>
+                      <li class="specAnswer">Intercooled Turbo</li>
+                      <li class="specAnswer">FWD</li>
+                      <li class="specAnswer">Variable</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-2 col-sm-3 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specTitle">Ext. Color:</li>
+                      <li class="specTitle">Int Color:</li>
+                      <li class="specTitle">MPG:</li>
+                      <li class="specTitle">VIN #:</li>
+                      <li class="specTitle">Stock #:</li>
+                      <li class="specTitle">Status:</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-sm-3 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specAnswer">LUNAR SILVER METALLIC</li>
+                      <li class="specAnswer">Black</li>
+                      <li class="specAnswer">29 City / 35 Hwy</li>
+                      <li class="specAnswer">1HGCV1F49NA020359</li>
+                      <li class="specAnswer">NA020359</li>
+                      <li class="specAnswer stockStatus text-success">In Stock</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-sm-12 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specFinal priceTag">Vehicle Price</li>
+                      <li class="specFinal carPrice">$27,530</li>
+                      <li class="specFinal buttonBuy">
+                        <button type="submit" class="btn btn-primary mb-3 col-sm-12">
+                          Test Drive
+                        </button>
+                      </li>
+                      <li class="specFinal buttonBuy">
+                        <button type="submit" class="btn btn-outline col-sm-12">
+                          More Info
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <!--End Product Card 2-->
+
+
+          <hr class="carBreak" size="4" width="100%" color="red">
+          <br>
+
+          <!--Product Card 3-->
+          <div class="container productCard">
+            <div class="row">
+              <div class="col-12">
+                <div class="card">
+                  <img class="card-img" src="img/blue1.png" alt="...">
+                  <div class="card-img-overlay text-white d-flex justify-content-left align-items-end">
+                    <p class="carTitle">2022 Honda Accord Sedan Sport</p>
+                  </div>
+              </div>
+                <div class="row">
+                  <div class="col-3 otherImages">
+                    <img
+                  src="img/blue2.png"
+                  class="img-thumbnail"
+                  alt="carImage"
+                />
+                  </div>
+                  <div class="col-3 otherImages">
+                    <img
+                  src="img/blue3.png"
+                  class="img-thumbnail"
+                  alt="carImage"
+                />
+                  </div>
+                  <div class="col-3 otherImages">
+                    <img
+                  src="img/blue4.png"
+                  class="img-thumbnail"
+                  alt="carImage"
+                />
+                  </div>
+                  <div class="col-3 otherImages">
+                    <img
+                  src="img/360.png"
+                  class="img-thumbnail"
+                  alt="carImage"
+                />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-2 col-sm-3 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specTitle">Body Style:</li>
+                      <li class="specTitle">Model Code:</li>
+                      <li class="specTitle">Engine:</li>
+                      <li class="specTitle">Drive Type:</li>
+                      <li class="specTitle">Transmission</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-2 col-sm-3 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specAnswer">4DR Car</li>
+                      <li class="specAnswer">CV1F3NEW</li>
+                      <li class="specAnswer">Intercooled Turbo</li>
+                      <li class="specAnswer">FWD</li>
+                      <li class="specAnswer">Variable</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-2 col-sm-3 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specTitle">Ext. Color:</li>
+                      <li class="specTitle">Int Color:</li>
+                      <li class="specTitle">MPG:</li>
+                      <li class="specTitle">VIN #:</li>
+                      <li class="specTitle">Stock #:</li>
+                      <li class="specTitle">Status:</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-sm-3 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specAnswer">STILL NIGHT PEARL</li>
+                      <li class="specAnswer">Black</li>
+                      <li class="specAnswer">29 City / 35 Hwy</li>
+                      <li class="specAnswer">1HGCV1F33NA026195</li>
+                      <li class="specAnswer">NA026195</li>
+                      <li class="specAnswer stockStatus text-success">In Stock</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-sm-12 productSpec">
+                    <ul class="productSpecs">
+                      <li class="specFinal priceTag">Vehicle Price</li>
+                      <li class="specFinal carPrice">$27,530</li>
+                      <li class="specFinal buttonBuy">
+                        <button type="submit" class="btn btn-primary mb-3 col-sm-12">
+                          Test Drive
+                        </button>
+                      </li>
+                      <li class="specFinal buttonBuy">
+                        <button type="submit" class="btn btn-outline col-sm-12">
+                          More Info
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End Product Card 3-->
+
+
+
+        <!--Refine Search-->
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="row searchRefine">
+          <div class="col-12">
+            <h5 class="refineHeader">Refine Search:</h5>
+            <div class="dropdown show refineButton">
+              <a class="dropdown-toggle btn btn-light btn-md btn-block col-12" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Status
+              </a>
+            
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Option Select</a>
+                <a class="dropdown-item" href="#">Option Select</a>
+                <a class="dropdown-item" href="#">Option Select</a>
+              </div>
+            </div>
+            <div class="dropdown show refineButton">
+              <a class="dropdown-toggle btn btn-light btn-md btn-block col-12" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Trim
+              </a>
+            
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Option Select</a>
+                <a class="dropdown-item" href="#">Option Select</a>
+                <a class="dropdown-item" href="#">Option Select</a>
+              </div>
+            </div>
+            <div class="dropdown show refineButton">
+              <a class="dropdown-toggle btn btn-light btn-md btn-block col-12" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Price Range
+              </a>
+            
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Option Select</a>
+                <a class="dropdown-item" href="#">Option Select</a>
+                <a class="dropdown-item" href="#">Option Select</a>
+              </div>
+            </div>
+            <div class="dropdown show refineButton">
+              <a class="dropdown-toggle btn btn-light btn-md btn-block col-12" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Exterior Color
+              </a>
+            
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Option Select</a>
+                <a class="dropdown-item" href="#">Option Select</a>
+                <a class="dropdown-item" href="#">Option Select</a>
+              </div>
+            </div>
+            <div class="dropdown show refineButton">
+              <a class="dropdown-toggle btn btn-light btn-md btn-block col-12" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Interior Color
+              </a>
+            
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Option Select</a>
+                <a class="dropdown-item" href="#">Option Select</a>
+                <a class="dropdown-item" href="#">Option Select</a>
+              </div>
+            </div>
+            <div class="dropdown show refineButton">
+              <a class="dropdown-toggle btn btn-light btn-md btn-block col-12" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Transmission
+              </a>
+            
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Option Select</a>
+                <a class="dropdown-item" href="#">Option Select</a>
+                <a class="dropdown-item" href="#">Option Select</a>
+              </div>
+            </div>
+            <h5 class="refineHeader">Inventory Search:</h5>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Stock or VIN" aria-label="Stock or VIN" aria-describedby="button-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Refine Search-->
+<br>
+
+    <!--Pagination-->
+    <nav aria-label="...">
+      <ul class="pagination pagination-sm pageSelection">
+        <li class="page-item disabled">
+          <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link text-secondary" href="#">1</a></li>
+        <li class="page-item active paginationActive" aria-current="page">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item"><a class="page-link text-secondary" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link text-secondary" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+    <!--End Pagination-->
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Logo & Text-->
+          <div class="col-md-3 col-sm-12">
+            <div style="margin-top: 50px">
+              <a class="navbar-brand" href="index.html"
+                ><img src="img/honda-logo.png" /></a
+              ><img
+                src="img/classichondaLogo.png"
+                style="margin-left: 25px; width: 99px"
+              />
+            </div>
+            <p style="margin-top: 16px; margin-right: 10px">
+              Orlando-based Classic Honda is a part of the Holler-Classic
+              Automotive Group, which has been delivering quality dealership
+              services in the area since 1938. Our customer base extends beyond
+              the Orlando.
+            </p>
+          </div>
+
+          <!-- Menu block-->
+          <div class="col-md-6 col-sm-12">
+            <div class="row" style="margin-left: 20px; margin-right: 20px">
+              <div class="col=md-3 col-sm-3">
+                <p class="footerMenu">Our Inventory</p>
+                <ul>
+                  <li class="footerLinks">New Cars</li>
+                  <li class="footerLinks">Used Cars</li>
+                  <li class="footerLinks">Trade In</li>
+                  <li class="footerLinks">Model Research</li>
+                  <li class="footerLinks">Special Order</li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3">
+                <p class="footerMenu">Service & Parts</p>
+                <ul>
+                  <li class="footerLinks">Schedule Service</li>
+                  <li class="footerLinks">Order Parts</li>
+                  <li class="footerLinks">Tire Store</li>
+                  <li class="footerLinks">Service Recalls</li>
+                  <li class="footerLinks">Oil Change</li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3">
+                <p class="footerMenu">Finance</p>
+                <ul>
+                  <li class="footerLinks">Sales</li>
+                  <li class="footerLinks">Calculator</li>
+                  <li class="footerLinks">Lease</li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3">
+                <p class="footerMenu">Test Drive</p>
+                <ul>
+                  <li class="footerLinks">Schedule TestDrive</li>
+                  <li class="footerLinks">Help</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-12">
+            <p class="footerMenu">Newsletter Subscription</p>
+            <p style="margin-top: 20px; font-size: 12px; font-weight: 400">
+              Subscribe to our newsletter to see the latest news.
+            </p>
+            <div class="row g-2">
+              <div class="col-auto">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Email..."
+                />
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter" style="margin-left: 15px"></i>
+            <i class="fa-brands fa-instagram" style="margin-left: 15px"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-sm-12 copy">
+            classichonda.com - all rights reserved 2022
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
